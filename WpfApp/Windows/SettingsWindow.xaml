@@ -1,0 +1,62 @@
+﻿<Window x:Class="WpfApp.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:lang="clr-namespace:WpfApp.Properties"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="{x:Static lang:Resources.Settings}" Height="350" Width="350" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
+    <Window.Resources>
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="{x:Type ComboBox}">
+            <Setter Property="MaxHeight" Value="30"/>
+            <Setter Property="Margin" Value="10 0 10 0"/>
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Content="{x:Static lang:Resources.Language}"/>
+        <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Content="{x:Static lang:Resources.Championship}"/>
+        <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Content="{x:Static lang:Resources.MainWindowSize}"/>
+
+        <ComboBox x:Name="ddlLanguage" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+            <ComboBoxItem Content="{x:Static lang:Resources.English}"/>
+            <ComboBoxItem Content="{x:Static lang:Resources.Hrvatski}"/>
+        </ComboBox>
+
+        <ComboBox x:Name="ddlChampionship" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
+            <ComboBoxItem Content="{x:Static lang:Resources.Male}"/>
+            <ComboBoxItem Content="{x:Static lang:Resources.Female}"/>
+        </ComboBox>
+
+        <ComboBox x:Name="ddlMainWindowSize" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2">
+            <ComboBoxItem Content="{x:Static lang:Resources.Fullscreen}"/>
+            <ComboBoxItem Content="{x:Static lang:Resources.Small}"/>
+            <ComboBoxItem Content="{x:Static lang:Resources.Medium}"/>
+            <ComboBoxItem Content="{x:Static lang:Resources.Big}"/>
+        </ComboBox>
+
+        <Button Grid.Row="6" Grid.Column="0" Margin="10 0 5 10" Background="LimeGreen" Click="BtnOK_Click" Content="{x:Static lang:Resources.OK}" IsDefault="True"/>
+        <Button x:Name="btnCancel" Grid.Row="6" Grid.Column="1" Margin="5 0 10 10" Background="Red" Content="{x:Static lang:Resources.Cancel}" IsCancel="True"/>
+    </Grid>
+</Window>

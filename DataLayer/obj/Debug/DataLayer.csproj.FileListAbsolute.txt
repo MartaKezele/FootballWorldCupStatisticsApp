@@ -1,0 +1,24 @@
+C:\Users\kezel\Desktop\Nova mapa (2)\Project\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\kezel\Desktop\Nova mapa (2)\Project\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\kezel\Desktop\Nova mapa (2)\Project\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+C:\Users\kezel\Desktop\Nova mapa (2)\Project\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\kezel\Desktop\Nova mapa (2)\Project\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\kezel\Desktop\Nova mapa (2)\Project\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\kezel\Desktop\Nova mapa (2)\Project\DataLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kezel\Desktop\Nova mapa (2)\Project\DataLayer\bin\Debug\RestSharp.dll
+C:\Users\kezel\Desktop\Nova mapa (2)\Project\DataLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kezel\Desktop\Nova mapa (2)\Project\DataLayer\bin\Debug\RestSharp.xml
+C:\Users\kezel\Desktop\Nova mapa (2)\Project\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\kezel\Desktop\Project\Project\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\kezel\Desktop\Project\Project\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\kezel\Desktop\Project\Project\DataLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kezel\Desktop\Project\Project\DataLayer\bin\Debug\RestSharp.dll
+C:\Users\kezel\Desktop\Project\Project\DataLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kezel\Desktop\Project\Project\DataLayer\bin\Debug\RestSharp.xml
+C:\Users\kezel\Desktop\Project\Project\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+C:\Users\kezel\Desktop\Project\Project\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\kezel\Desktop\Project\Project\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\kezel\Desktop\Project\Project\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\kezel\Desktop\Project\Project\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\kezel\Desktop\Project\Project\DataLayer\obj\Debug\DataLayer.Resources.Messages.resources
+C:\Users\kezel\Desktop\Project\Project\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.cache
